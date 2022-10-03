@@ -1,0 +1,95 @@
+.pendidikan{
+    display: flex;
+    flex-direction: column;
+}
+
+.headline{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.main-pendidikan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kartu{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 600px;
+    height: 200px;
+    border-radius:10px;
+    flex: 1;
+}
+
+.konten-kartu{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8%;
+    box-shadow: 10px 10px;
+    background-color: #D9D9D9;
+}
+
+.kartu-portofolio{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 300px;
+    height: 500px;
+    border-radius:10px;
+    flex: 1;
+}
+
+.konten-kartu-portofolio{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px;
+    background-color: #D9D9D9;
+}
+
+.portofolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dumy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dumy-foto{
+    
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex:2;
+}
+
+.kartu-dumy{
+    width: 150px;
+    height: 300px;
+    margin: 12%;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tumbnail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
